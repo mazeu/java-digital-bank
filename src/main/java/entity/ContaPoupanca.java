@@ -1,23 +1,9 @@
 package entity;
 
-public class ContaPoupanca {
-
-    private int agencia;
-    private int numero;
-    private String titular;
-    private double saldo;
+public class ContaPoupanca extends Conta{
+public ContaPoupanca(int agencia, int numero){
+    super(agencia, numero);
+}
 
 
-    //metodos da classe abaixo
-    public void sacar(){
-
-    }
-
-    public void depositar(){
-
-    }
-
-    public void transferir(){
-
-    }
 }
